@@ -59,3 +59,10 @@ alias gcr="git checkout development && git pull origin development && git commit
 
 . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 ```
+.bashrc
+```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export ERL_AFLAGS="-kernel shell_history enabled"
+```
